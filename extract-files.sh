@@ -34,6 +34,14 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function blob_fixup {
+    case "$1" in
+        vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service)
+            "${PATCHELF}" --add-needed "libnxp_shim.so" "${2}"
+            ;;
+    esac
+}
+
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
 

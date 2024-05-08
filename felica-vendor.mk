@@ -52,3 +52,5 @@ PRODUCT_PACKAGES += \
     com.nxp.nfc.nq
 
 DEVICE_MANIFEST_FILE += vendor/motorola/felica/vintf/manifest.xml
+
+PRODUCT_PACKAGES += libnxp_shim

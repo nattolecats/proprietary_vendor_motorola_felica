@@ -50,6 +50,8 @@ write_makefiles "${MY_DIR}/proprietary-files.txt" true
 cat << EOF >> "${PRODUCTMK}"
 
 DEVICE_MANIFEST_FILE += vendor/motorola/felica/vintf/manifest.xml
+
+PRODUCT_PACKAGES += libnxp_shim
 EOF
 
 # Finish
