@@ -1,10 +1,10 @@
 # All unpinned blobs below are extracted from penang_g-user 14 U1TPS34M.29-83-1 295da release-keys.
 
 # Felica - APK
--product/priv-app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED
--product/priv-app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk;PRESIGNED
--product/priv-app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk;PRESIGNED
--product/priv-app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk;PRESIGNED
+-product/priv-app/MobileFeliCaClient/MobileFeliCaClient.apk
+-product/priv-app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk
+-product/priv-app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk
+-product/priv-app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk
 
 # Felica - Configs
 product/etc/sysconfig/com.felicanetworks.mfc.powersave.xml

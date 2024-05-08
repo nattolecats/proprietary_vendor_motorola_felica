@@ -11,8 +11,7 @@ android_app_import {
 	name: "MobileFeliCaClient",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MobileFeliCaClient/MobileFeliCaClient.apk",
-	preprocessed: true,
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -24,8 +23,7 @@ android_app_import {
 	name: "MobileFeliCaMenuMainApp",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk",
-	preprocessed: true,
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -37,8 +35,7 @@ android_app_import {
 	name: "MobileFeliCaSettingApp",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk",
-	preprocessed: true,
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -50,8 +47,7 @@ android_app_import {
 	name: "MobileFeliCaWebPluginBoot",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk",
-	preprocessed: true,
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
